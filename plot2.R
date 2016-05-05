@@ -28,9 +28,7 @@ HoHoPowerCons <- read.csv("household_power_consumption.txt", header=TRUE, sep=";
 # could do this in one line with the plot command...
 plotperiod <- HoHoPowerCons[which(HoHoPowerCons$Date >= "2007-02-01" & HoHoPowerCons$Date <= "2007-02-02"),]
 
-# First create empty plot with corrcet labels etc.
-# screen: hist(plotperiod$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
-# for png (note default size is 480x480, which is the requested size.)
+# First create empty plot with correct labels etc.
 
 # ranges did work out
 # xrange <- range(plotperiod$Date)
